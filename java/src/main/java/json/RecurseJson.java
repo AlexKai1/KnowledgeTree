@@ -86,7 +86,7 @@ public class RecurseJson {
         JSONArray jsonArray = j.initJsonArr();
         System.out.println(j.appendSingleValue(jsonArray, "name", "alex"));
 
-        List<Object> listValue = new ArrayList<>();
+        List<Object> listValue = new ArrayList<Object>();
         for (int i = 0; i < 10; i++) {
             listValue.add(i * i);
         }

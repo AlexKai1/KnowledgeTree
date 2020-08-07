@@ -36,7 +36,7 @@ public class FastJson {
 
     public static void main(String[] args) {
         FastJson fastJson = new FastJson();
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<String>();
         list.add("abc");
         list.add("test");
         System.out.println(list);
